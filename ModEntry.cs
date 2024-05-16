@@ -1,13 +1,13 @@
-﻿using HarmonyLib;
+﻿using System;
+using System.Reflection;
+
+using HarmonyLib;
 
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 
 using StardewValley;
-
-using System;
-using System.Reflection;
 
 namespace XPMultiplier
 {
@@ -69,7 +69,7 @@ namespace XPMultiplier
 
         }
 
-        public static ModConfig Config;
+        internal static ModConfig Config;
 
     }
 
